@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/index';
 import { ProductListComponent, ProductAddEditComponent } from './products/index';
+import { SigninComponent } from './signin/index';
 
 const routes: Routes = [
     { path: '', pathMatch: 'full', component: HomeComponent },
@@ -13,6 +14,9 @@ const routes: Routes = [
             { path: 'add', component: ProductAddEditComponent },
             { path: 'edit/:id', component: ProductAddEditComponent }
         ]
+    },{
+        path: 'signin',
+        component: SigninComponent
     },
 
     // otherwise redirect to home
@@ -26,4 +30,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routedComponents = [HomeComponent, ProductListComponent, ProductAddEditComponent];
+export const routedComponents = [HomeComponent, ProductListComponent, ProductAddEditComponent, SigninComponent];
