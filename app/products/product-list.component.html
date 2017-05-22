@@ -1,17 +1,23 @@
-﻿<h1>Products</h1>
-<a routerLink="add" class="btn btn-default">Add Product</a>
-<table class="table products-table">
-    <tr>
-        <th>Name</th>
-        <th>Price</th>
-        <th class="delete-column"></th>
-    </tr>
-    <tr *ngFor="let product of products">
-        <td><a [routerLink]="['edit', product.id]">{{product.name}}</a></td>
-        <td>${{product.price}}</td>
-        <td><a (click)="deleteProduct(product.id)" class="btn btn-xs btn-danger">Delete</a></td>
-    </tr>
-</table>
-<div class="view-side-form">
-    <router-outlet></router-outlet>
+﻿<div class="container w-xxl w-auto-xs page-header">
+        <div>
+            <h1>Products</h1>
+            <a routerLink="add" class="btn btn-default">Add Product</a>
+            <div class="col-md-12">
+                <table class="table products-table" width="200%">
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th class="delete-column"></th>
+                    </tr>
+                    <tr *ngFor="let product of products">
+                        <td><a [routerLink]="['edit', product.id]">{{product.name}}</a></td>
+                        <td>${{product.price}}</td>
+                        <td><a (click)="deleteProduct(product.id)" class="btn btn-xs btn-danger">Delete</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="view-side-form">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
 </div>
