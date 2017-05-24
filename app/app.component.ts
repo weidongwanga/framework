@@ -1,6 +1,7 @@
 ﻿import { Component } from '@angular/core';
 
 import { ProductService } from './_services/index';
+import {setTimeout} from "timers";
 
 @Component({
     moduleId: module.id.toString(),
@@ -15,6 +16,9 @@ export class AppComponent {
             productService.save({ name: 'Boardies', price: '25.00' });
             productService.save({ name: 'Singlet', price: '9.50' });
             productService.save({ name: 'Thongs (Flip Flops)', price: '12.95' });
+        }
+        for (let i = 0; i < 100; i++) {
+
         }
     }
 }

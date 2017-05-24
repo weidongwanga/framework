@@ -1,0 +1,41 @@
+
+<div class="wrapper-md" ng-controller="userInfoController">
+  <div class="panel panel-default">
+      <panel_heading_search>
+          <div class="panel-group ">
+              <label>用户名</label>
+              <input type="text" id="expressId" name="expressId" ng-model="query.expressId"/>
+          </div>
+          <div class="panel-group ">
+              <label>登陆账号</label>
+              <input type="text" id="qcOrderId" name="qcOrderId" ng-model="query.qcOrderId"/>
+          </div>
+      </panel_heading_search>
+
+
+    <div class="panel-body">
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <table id="table"
+           data-toggle="table"
+           data-height="460"
+           data-url="bootstrap/json/data5.json"
+           data-show-columns="true"
+           data-id-field="id">
+        <thead>
+        <tr>
+            <th data-field="state" data-radio="true"></th>
+            <th data-field="name" data-switchable="false">Name</th>
+            <th data-field="price">Price</th>
+            <th data-field="column1">Columns1</th>
+            <th data-field="column2" data-visible="false">Columns2</th>
+            <th data-field="column3" data-switchable="false">Columns3</th>
+            <th data-field="column4" data-visible="false">Columns4</th>
+        </tr>
+        </thead>
+    </table>
+</div>
