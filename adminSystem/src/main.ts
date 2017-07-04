@@ -1,9 +1,7 @@
-/**
- * Created by admin on 2017/7/3.
- */
-import 'reflect-metadata';
+// import 'reflect-metadata';
+import 'core-js'; // include reflect & polyfill
 import 'zone.js';
-import { platformBrowserDynamic} from '@angular/platform-browser-dynamic';
-import { AppComponent } from './app.component'
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import {AppModule} from './app.module'
 
-platformBrowserDynamic().bootstrapModule(AppComponent);
+platformBrowserDynamic().bootstrapModule(AppModule);

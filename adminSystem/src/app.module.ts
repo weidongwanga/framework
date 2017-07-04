@@ -1,9 +1,9 @@
 /**
  * Created by admin on 2017/7/3.
  */
-import { NgModule} from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {AppComponent} from './app.component';
 
 @NgModule({
     declarations: [AppComponent],
