@@ -18,7 +18,7 @@ export class AppComponent {
             productService.save({ name: 'Thongs (Flip Flops)', price: '12.95' });
         }
         for (let i = 0; i < 100; i++) {
-
+            productService.save({ name: 'Boardies' + i, price: '25.00' });
         }
     }
 }
