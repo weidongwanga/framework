@@ -15,7 +15,7 @@
 ## 如何上手
 
 调查问卷项目包括前端 frontend 目录以及后端 backend 目录。我们可以先运行后端服务，方便前端的注册与登录用户以及提供问卷相关的服务。安装过 Node.js 之后（确保你的 Node.js 版本为 6.x 及以上），在终端运行以下命令：
-
+npm install -g webpack webpack-dev-server typescript
 ```bash
 cd backend
 npm install
