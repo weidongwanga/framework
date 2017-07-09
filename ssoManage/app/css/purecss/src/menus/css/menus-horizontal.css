@@ -8,7 +8,7 @@
     display: inline-block;
 }
 
-/* Initial menus should be inline-block so that they are horizontal */
+/* Initial menus should be inline-blocks so that they are horizontal */
 .pure-menu-horizontal .pure-menu-item,
 .pure-menu-horizontal .pure-menu-heading,
 .pure-menu-horizontal .pure-menu-separator {

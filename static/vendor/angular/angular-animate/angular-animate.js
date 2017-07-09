@@ -77,7 +77,7 @@
  * ```
  *
  * When the `on` expression value changes and an animation is triggered then each of the elements within
- * will all animate without the block being applied to child elements.
+ * will all animate without the blocks being applied to child elements.
  *
  * ## Are animations run when the application starts?
  * No they are not. When an application is bootstrapped Angular will disable animations from running to avoid
@@ -171,7 +171,7 @@
  * added to or removed from the element (via `$animate.addClass`, `$animate.removeClass`,
  * `$animate.setClass`, or by directives such as `ngClass`, `ngModel` and `form`).
  * They are different when compared to structural animations since they **do not cancel existing
- * animations** nor do they **block successive transitions** from rendering on the same element.
+ * animations** nor do they **blocks successive transitions** from rendering on the same element.
  * This distinction allows for **multiple class-based transitions** to be performed on the same element.
  *
  * In addition to ngAnimate supporting the default (natural) functionality of class-based transition

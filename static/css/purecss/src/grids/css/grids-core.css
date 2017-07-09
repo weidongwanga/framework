@@ -55,7 +55,7 @@
 
 .pure-u {
     display: inline-block;
-    *display: inline; /* IE < 8: fake inline-block */
+    *display: inline; /* IE < 8: fake inline-blocks */
     zoom: 1;
     letter-spacing: normal;
     word-spacing: normal;
