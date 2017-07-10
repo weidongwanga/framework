@@ -13,7 +13,7 @@ var index_2 = require("./src/products/index");
 var index_3 = require("./src/signin/index");
 var header_component_1 = require("./src/blocks/header.component");
 var routes = [
-    { path: 'home', component: index_1.HomeComponent },
+    { path: '', pathMatch: 'full', component: index_1.HomeComponent },
     {
         path: 'products',
         component: index_2.ProductListComponent,

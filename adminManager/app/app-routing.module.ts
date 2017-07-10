@@ -7,7 +7,7 @@ import { SigninComponent } from './src/signin/index';
 import {FMHeaderComponent} from "./src/blocks/header.component";
 
 const routes: Routes = [
-    { path: 'home',  component: HomeComponent },
+    { path: '', pathMatch: 'full', component: HomeComponent },
     {
         path: 'products',
         component: ProductListComponent,

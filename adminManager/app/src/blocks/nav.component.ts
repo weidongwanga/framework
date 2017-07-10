@@ -6,7 +6,7 @@ import { fadeInAnimation } from '../_animations/index';
 @Component({
     moduleId: module.id.toString(),
     selector: 'fm-nav',
-    templateUrl: './nav.html'
+    templateUrl: './nav.component.html'
 })
 export class FMNavComponent {
 }

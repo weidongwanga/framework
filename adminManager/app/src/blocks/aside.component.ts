@@ -6,7 +6,7 @@ import { fadeInAnimation } from '../_animations/index';
 @Component({
     moduleId: module.id.toString(),
     selector: 'fm-aside',
-    templateUrl: './aside.html'
+    templateUrl: './aside.component.html'
 })
 export class FMAsideComponent {
 }
